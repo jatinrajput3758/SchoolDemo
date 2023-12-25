@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5em;
+}
+
+nav {
+    display: none;
+    /* Hide the navigation links by default */
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        /* Display the navigation links for larger screens */
+    }
+}
+
+
+/* our facility */
+.facilty-main {
+    background-color: #3333334d;
+}
+
+.facilty-main .one img {
+    width: 100px;
+}
+
+.facilty-main .two img {
+    width: 100px;
+}
